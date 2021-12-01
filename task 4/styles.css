@@ -1,0 +1,35 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background: repeating-linear-gradient(321deg, #1e4328 -20%, #06060f 120%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    overflow: hidden;
+    margin: 0;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 90%;
+    align-items: center;
+    justify-content: center;
+}
+
+.square {
+    width: 16px;
+    height: 16px;
+    background-color: rgb(37, 57, 58);
+    box-shadow: 0 0 2px rgb(12, 16, 22);
+    border-radius: 3px;
+    margin: 2px;
+    transition: 3s ease;
+}
+
+.square:hover {
+    transition-duration: 0ms;
+}
